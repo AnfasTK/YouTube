@@ -1,0 +1,64 @@
+.navigation-bar-container{
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  z-index: 100;
+}
+#right-arrow-container{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  top: -57px;
+  right:-28px;
+}
+#right-arrow{
+  display: flex;
+  width: 106px;
+  height: 56px;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(15,15,15,1) 50%, rgba(15,15,15,1) 100%);
+  z-index: 85;
+}
+.right-arrow-icon{
+  width: 7px;
+}
+#right-arrow-button{
+  margin: 10px 9px;
+}
+.navigation-bar{
+  display: flex;  
+  position: fixed;
+  top: 56px;
+  left: 260px;
+  right: 30px;
+  height: 56px;
+  overflow-x:auto;
+  scrollbar-width: none;
+  background-color: rgb(15, 15, 15);
+  z-index: 75;
+}
+.video-filter{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+height: 32px;
+margin: 12px 12px 12px 0px;
+padding: 0px 12px;
+border-radius: 8px;
+color: #F1F1F1;
+background-color: #FFFFFF1A;
+}
+.text{
+font-size: 14px;
+font-weight: 500;
+}
+.video-filter:hover{
+background-color: #383838;
+}
+.video-filter:active{
+background-color: #F1F1F1;
+color: #0F0F0F;
+}

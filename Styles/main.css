@@ -1,0 +1,143 @@
+.main-video-grid{
+    display: grid;
+    padding: 24px 0px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.video-preview{
+    cursor: pointer;
+    background-color: transparent;
+}
+.video-preview:active{
+    background-color: #383838;
+}
+.thumbnail-row{
+    margin-bottom: 5px;
+    position: relative;
+}
+.thumbnail{
+    border-radius: 10px;
+    width: 100%;
+}
+.video-time{
+    color: #fff;
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+    right: 9px;
+    bottom: 11px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 2px 4px 2px 4px;
+}
+.video-details-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr 35px;
+}
+.profile-picture{
+    margin: 0px 0px 0px 4px;
+    width: 35px;
+    border-radius: 50px;
+    
+}
+.video-title{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+.three-dot-icon-button{
+    width: 35px;
+    height: 35px;
+}
+.three-dot-icon{
+    padding-top: 3px;
+    width: 9px;
+}
+.video-author,.video-stats{
+    font-size: 14px;
+   color: #AAAAAA;
+}
+#ads-container:active{
+    background-color: transparent;
+}
+#ads-Sponsored{
+    font-size: 12px;
+    font-weight: 700;
+    color: #F1F1F1;
+}
+.bullet{
+    font-size: 14px;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.verification-mark{
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+}
+#ads-logo{
+    height: 65px;
+}
+.ad-buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 10px;
+    height: 60px;
+    width: 343.66px;
+}
+.ad-button{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    min-width: 165.5px;
+    max-width: 165.5px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    transition: background-color 0.1s;
+}
+.ad-button:hover{
+    cursor: pointer;
+    background-color: #263850;
+}
+.ad-button:active{
+    background-color: #3c4c64;
+    
+}
+.ad-button-text{
+    font-family: Roboto,arial;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3ea6ff;
+}
+#left-button{
+    border: none;
+    min-width: 165.5px;
+    max-width: 165.5px;
+    height: 36px;
+    background: #263850;
+    transition: background-color 0.1s
+}
+#left-button:hover{
+    background: #545464;
+}
+#left-button:active{
+    background: #646474;
+}
+.Ads-Promotion-icon{
+    width: 13px;
+    padding: 6px 6px 2px 6px;
+}
+#ad-video-time{
+    right: 10px;
+    bottom: 20px;
+    background-color:rgba(0, 0, 0, 0.9);
+}

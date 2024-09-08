@@ -1,0 +1,35 @@
+body{
+  font-family: Roboto,arial;
+    background-color: rgb(15, 15, 15);
+    color: rgb(241, 241, 241);
+    margin: 0;
+    padding-top: 113px;
+    padding-left: 260px;
+    padding-right: 30px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #717171;
+}
+
+body::-webkit-scrollbar-button {
+  border-style: solid;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: #717171 transparent transparent transparent;
+}
+
+body::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: #717171 transparent transparent transparent;
+}
